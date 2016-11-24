@@ -12,7 +12,7 @@ from statsmodels.formula.api import ols, glm
 from tqdm import tqdm
 
 
-sns.set(font_scale=1.2)
+sns.set(font_scale=1.2, rc={'figure.figsize': (4, 4)})
 graph.style.use('fivethirtyeight')
 warnings.simplefilter('ignore')
 
