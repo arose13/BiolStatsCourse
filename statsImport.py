@@ -3,6 +3,7 @@ import scipy
 import numpy as np
 import pandas as pd
 import seaborn as sns
+import statsmodels as stats
 import statsmodels.api as sm
 import matplotlib.pyplot as graph
 import scipy.stats as st
